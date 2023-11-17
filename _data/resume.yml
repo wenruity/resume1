@@ -53,7 +53,7 @@ main: #简历主要内容，
     - 数据分析
     - 数据挖掘
   - title: 创新研究能力
-    detail: 
+    items: 
     - 工作期间提交12项发明专利，5个已授权 <br>  &nbsp &nbsp  
     - 工作期间发表3篇论文，均被国际会议接收：
     1.Wen, Rui, et al. "Asa: Adversary situation awareness via heterogeneous graph convolutional networks." Companion Proceedings of the Web Conference 2020. 2020.
