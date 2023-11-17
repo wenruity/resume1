@@ -48,7 +48,7 @@ main: #简历主要内容，
     - Hive
     - Java
   - title: 技术栈
-      items: #itmems 可以小块的方式显示
+    items: #itmems 可以小块的方式显示
     - 算法研发
     - 数据分析
     - 数据挖掘
