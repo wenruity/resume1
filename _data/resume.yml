@@ -52,13 +52,13 @@ main: #简历主要内容，
     - 算法研发
     - 数据分析
     - 数据挖掘
-  - title: 创新研究能力
-    items: 
-    - 工作期间提交12项发明专利，5个已授权 <br>  &nbsp &nbsp  
-    - 工作期间发表3篇论文，均被国际会议接收：
-    1.Wen, Rui, et al. "Asa: Adversary situation awareness via heterogeneous graph convolutional networks." Companion Proceedings of the Web Conference 2020. 2020.
-    2.Wang, Jianyu, Wen, Rui,  et al. "Analyzing and detecting adversarial spam on a large-scale online app review system." Companion Proceedings of the Web Conference 2020. 2020.
-    3.Wang, Jianyu, Wen Rui, et al. "Fdgars: Fraudster detection via graph convolutional networks in online app review system." Companion proceedings of the 2019 World Wide Web conference. 2019.
+  # - title: 创新研究能力
+  #   items: 
+  #   - 工作期间提交12项发明专利，5个已授权 <br>  &nbsp &nbsp  
+  #   - 工作期间发表3篇论文，均被国际会议接收：
+  #   1.Wen, Rui, et al. "Asa: Adversary situation awareness via heterogeneous graph convolutional networks." Companion Proceedings of the Web Conference 2020. 2020.
+  #   2.Wang, Jianyu, Wen, Rui,  et al. "Analyzing and detecting adversarial spam on a large-scale online app review system." Companion Proceedings of the Web Conference 2020. 2020.
+  #   3.Wang, Jianyu, Wen Rui, et al. "Fdgars: Fraudster detection via graph convolutional networks in online app review system." Companion proceedings of the 2019 World Wide Web conference. 2019.
 
 
 - type: experience
