@@ -158,9 +158,8 @@ others: #其他列表显示
   content: #选择需要的格式
   - 
   - title: "奖项"
-    text: "连续获得两次Outstanding员工，腾讯卓越研发奖-腾讯新闻数据科学工业化项目团队成员，腾讯开源协同奖-数据资产管理(河图) Oteam"
-  - title: "认证"
-    text: "BG内数据科学通道培养计划课程认证"
+    text: "多次获得Outstanding员工，通用身份ID项目获得PCG技术突破奖"
+
   #   items: #单行列表
   #   - 睡觉
   #   - 吃饭
