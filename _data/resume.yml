@@ -31,42 +31,53 @@ main: #简历主要内容，
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
   - title: 南京理工大学
     # duration: 
-    sub: 2007年9月 - 2017年12月
-    detail: 计算机应用技术 博士/硕士/学士
+    sub: 2011年9月 - 2017年12月
+    detail: 计算机应用技术 博士/硕士
+  - title: 南京理工大学
+    # duration: 
+    sub: 2007年9月 - 2011年6月
+    detail: 计算机科学与技术 学士
     
 - type: 技能
   # name: "技术栈和编程语言"
   content:
   - title: 开发语言
     items: #itmems 可以小块的方式显示
-    - 编程语言：SQL Python
+    - SQL 
+    - Python
     - Hive
-    - Spark
-    - 数据可视化
-  - title: 个人技能总结
-    detail:  1. 有画像业务的完整项目经验，有独立分析和解决数据问题的能力，能针对画像场景进行有效数据挖掘并形成策略 <br>  &nbsp &nbsp
-             2. 掌握多种数据分析模型，了解多种技术选型，并能有效应用于画像服务中。如留存、漏斗、人群分析、RFM模型等 <br>  &nbsp &nbsp
-             3. 了解各类数据建模方法，如线性回归、SHAP value、逻辑回归、决策树以及因果分析的框架和要素 <br>  &nbsp &nbsp
-             4. 具备数据分析、大数据开发的能力，包含hive、spark、python等 <br>  &nbsp &nbsp
-             5. 工作认真负责、勇于担当、沟通和团队协作能力强；能力综合，有独立管理和运营项目的经验 
+    - Java
+  - title: 技术栈
+      items: #itmems 可以小块的方式显示
+    - 算法研发
+    - 数据分析
+    - 数据挖掘
+  - title: 创新研究能力
+    detail: 
+    - 工作期间提交12项发明专利，5个已授权 <br>  &nbsp &nbsp  
+    - 工作期间发表3篇论文，均被国际会议接收：
+    1.Wen, Rui, et al. "Asa: Adversary situation awareness via heterogeneous graph convolutional networks." Companion Proceedings of the Web Conference 2020. 2020.
+    2.Wang, Jianyu, Wen, Rui,  et al. "Analyzing and detecting adversarial spam on a large-scale online app review system." Companion Proceedings of the Web Conference 2020. 2020.
+    3.Wang, Jianyu, Wen Rui, et al. "Fdgars: Fraudster detection via graph convolutional networks in online app review system." Companion proceedings of the 2019 World Wide Web conference. 2019.
+
 
 - type: experience
   name: 工作经历
   content:
-  - title: 腾讯 - 应用研究
-    sub: PCG大数据平台部   数据挖掘中心
-    duration: "2018年5月 - 至今"
-    tags:
-    # - 画像挖掘
-    # - 标签开发
-    # - 指标监控
-    # - 画像评测
-    # - 画像提升
-    # - 实验配置
-    # summary: 职务或者工作总结(自动折叠)
-    detail: 业务数据科学：负责新闻业务画像覆盖率、准确率提升，建立画像服务的指标监控体系 <br>  &nbsp &nbsp  平台数据开发：作为开发者完成数据平台的链路搭建和功能上线，为业务提供可靠的画像平台服务
+  # - title: 腾讯 - 应用研究
+  #   sub: PCG大数据平台部   数据挖掘中心
+  #   duration: "2018年5月 - 至今"
+  #   tags:
+  #   # - 画像挖掘
+  #   # - 标签开发
+  #   # - 指标监控
+  #   # - 画像评测
+  #   # - 画像提升
+  #   # - 实验配置
+  #   # summary: 职务或者工作总结(自动折叠)
+  #   detail: 业务数据科学：负责新闻业务画像覆盖率、准确率提升，建立画像服务的指标监控体系 <br>  &nbsp &nbsp  平台数据开发：作为开发者完成数据平台的链路搭建和功能上线，为业务提供可靠的画像平台服务
     
-  - title: 基于大语言模型的数据分析工具项目，算法研发
+  - title: 腾讯 PCG - 基于大语言模型的数据分析工具项目，算法研发
   #   sub:  人工智能事业部 
     duration: "2023年7月 - 至今"
   #   tags:
@@ -74,14 +85,14 @@ main: #简历主要内容，
     detail: 基于有限的数据，构建高质量、领域知识语料 <br>  &nbsp &nbsp  基于开源模型（Llama/vicuna/chatglm/baichuan），微调训练数据分析场景的垂直领域模型
 
 
-  - title: 通用身份ID和画像挖掘项目，数据挖掘/数据分析/项目PM
+  - title: 腾讯 PCG - 通用身份ID和画像挖掘项目，数据挖掘/数据分析/项目PM
   #   sub:  全球基金部门
     duration: "2020年10月 - 至今"
   #   tags:
   #   # summary: 职务或者工作总结(自动折叠)
     detail: 设计和搭建全面的ID指标体系，量化ID可用性 <br>  &nbsp &nbsp  推动并协助PCG全业务在数据分析、推荐、商业化等各个场景切换主ID为通用身份ID <br>  &nbsp &nbsp  建设BG最全的ID-Mapping服务，挖掘游戏相关标签，辅助业务拉新/拉活游戏用户
 
-  - title: 稽核反作弊项目，算法研发/数据分析
+  - title: 腾讯 PCG - 稽核反作弊项目，算法研发/数据分析
   #   sub:  全球基金部门
     duration: "2018年5月 - 2020年9月"
   #   tags:
@@ -100,41 +111,43 @@ main: #简历主要内容，
   #   detail: Details can be collapsed in Chrome Safari, Firefox, Opera and so on. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 - type: Projects
-  name: 项目经验
+  name: 项目经历
   content:
-  - title: 新闻业务数据科学
+  - title: 基于大语言模型的数据分析工具项目
     duration: 
-    tags:
-    - Hive
-    - Spark
-    - 用户调研
-    - ABtest
-    detail: 1.画像挖掘：使用SQL/Python挖掘各类核心标签，如用户应用偏好标签、人群属性标签，用于人群投放场景，标签累计创建人群1000+，产生20+正向场景，覆盖PCG、IEG等BG的多个业务 <br>  &nbsp &nbsp 
-            2.数据应用：建立并维护ID-mapping标签ETL链路，保障数据的完整性、准确性和一致性；负责统一设备ID的推广应用，对接业务方30+，对 uni-ID 的运营取得从0到200亿+/天服务调用量的成绩 <br>  &nbsp &nbsp 
-            3.指标监控：配置新闻业务各场景用户的画像覆盖度监控，覆盖新闻主端app、微信新闻插件、手q新闻插件等产品形态，包括100+标签；利用ClickHouse计算画像覆盖度，降低配置难度，实现高效运算 <br>  &nbsp &nbsp  
-            4.画像评测：在准确率评估项目中，创新性搭建可复用的自动化画像测评流程，实现问卷自动生成与回收结果，产出画像准确率分析报告，耗时从1个月+降低到3日内完成，测评效率大幅度提升  <br>  &nbsp &nbsp 
-            5.画像提升：负责新闻业务兴趣画像置信度指标测算，对置信度低的画像进行原因挖掘，推动画像算法策略调优; 统筹多方资源，实现千人千面画像调研问卷的快速上线，成功在端内向100w+用户发放问卷并回收结果用于提升画像  <br>  &nbsp &nbsp 
-            6.实验配置：产出微信腾讯新闻插件实验人群，配置实验人群包，跟进回收并分析人群实验效果；多个实验中用户人均消费时长等关键指标显著正向，已推全上线
-    sub: 开发者&数据分析
+    # tags:
+    # - Hive
+    # - Spark
+    # - 用户调研
+    # - ABtest
+    detail: 依托大语言模型，该项目实现数据查找、分析、归因等一系列数据分析中的常规任务。本人负责项目中垂直领域模型的研发和部署： <br>  &nbsp &nbsp  
+    【模型选型】基于收集的基础问题和期望回复，评测HF上能力TOP的开源模型，选择中文理解能力和测试结果较优的模型作为基座模型 <br>  &nbsp &nbsp  
+    【构造语料】基于有限数据，构造领域知识语料，构造方式包括生成与业务基础问题相似问题、将知识集合添加到prompt中进行知识增强和上下文学习、调整prompt模板等 <br>  &nbsp &nbsp  
+    【模型微调和上线】基于构造的语料微调基座模型，根据测试集的验证结果，不断调整和优化语料构造方案，最终训练出的垂直领域模型准确率达88%，与chatGPT3.5不相上下；部署模型服务，并在产品上线该服务调用逻辑
+    sub: 算法研发
     
-  - title: 画像平台数据工程
+  - title: 通用身份ID和画像挖掘项目
     duration: 
-    tags:
-    - Hive
-    - Spark
-    - 数据分析
-    - 数据开发
-    detail: 1.数据开发：推动建立全域画像标签库，开发并接入100+标签底层数据到画像平台；重构并维护标签字典表产出链路，推动字典存储从Mysql升级到Elasticsearch，支持百万级字典查询，实现性能提升 <br>  &nbsp &nbsp  
-            2.功能开发：针对分析报告生成时间过长的痛点，构建自动化分析模板，帮助看清页面广告投放效果，提高分析效率，报告生成时间从1人/日降低到半小时内完成，有效解决业务痛点，获得用户好评 <br>  &nbsp &nbsp  
-            3.用户运营：作为owner整体负责画像的运营和数据分析工作，包含业务接入推广、用户反馈处理、badcase分析，对业务画像应用过程中的问题进行原因分析与修复，向业务开展多次画像平台资产与功能介绍课程，累计参与人数200+，用户服务满意度在技术公线内前5% <br>  &nbsp &nbsp  
-            4.知识沉淀：沉淀平台使用指引、画像挖掘说明、ID能力介绍等，累计梳理文档30+篇，访问PV5w+次，UV1w+
-    sub: 功能开发&运营负责人
+    # tags:
+    # - Hive
+    # - Spark
+    # - 数据分析
+    # - 数据开发
+    detail: 在该项目中，本人负责通用身份ID的特征评估、指标体系建设和画像标签挖掘： <br>  &nbsp &nbsp  
+    【ID特征评估和指标体系建设】基于终端采集的300+特征，筛选能够稳定且唯一标识一台设备的特征，当作生成通用身份ID的关键因子，生成用户ID；搭建一套全面的ID指标体系，实时监控ID在各个业务的可用性，及时发现问题，修复问题 <br>  &nbsp &nbsp  
+    【ID的推广应用】通过数据分析、AB实验等方式，推动PCG主要业务在数仓建设、数据分析、推荐、画像、实验、商业化等场景切换自有ID为通用身份ID。历时一年时间，PCG所有业务和中台服务均已统一将通用身份ID视为主ID，业务间数据拉通分析和数据合作效率得到明显提升 <br>  &nbsp &nbsp  
+    【画像标签挖掘】在高可用ID的基础上，研发ID-Mapping和游戏标签挖掘两个系列服务： <br>  &nbsp &nbsp  
+    通过收集多方数据源、构造图结构等方式，研发的ID-Mapping服务提供多种ID之间的映射关系和自然人识别能力，辅助BG内业务与其他BG或外部业务的数据合作，目前准确率和转化率均达到90%+； <br>  &nbsp &nbsp  
+    基于游戏上报数据，挖掘了包括玩家活跃状态、玩家游戏兴趣IP等标签，赋能业务在游戏拉新/拉活时运营策略定制和人群圈选
+    sub: 数据分析&数据挖掘&产品运营负责人
 
-  # - title: Project Name
-  #   summary: Projects' introduction or summary
-  #   detail:
-  #     md: _data/demo.md
-  #   sub: Creator and maintainer.
+  - title: 稽核反作弊项目
+    # summary: Projects' introduction or summary
+    detail: 在该项目中，本人职责为数据分析和算法研发： <br>  &nbsp &nbsp  
+    【策略模型】基于终端上报数据，挖掘模拟器、劫持、群控等黑产用户，将识别结果应用于渠道买量和结算 <br>  &nbsp &nbsp  
+    【算法模型】在发福利、发红包、积分墙等场景，策略模型对潜在异常用户的覆盖不高，因此引入GNN理念，通过构建以用户为节点、用户之间的关系为边，研发了基于GNN的异常用户识别算法，有效识别潜在的异常用户，辅助业务福利发放策略制定
+      # md: _data/demo.md
+    sub: 数据挖掘&算法研发
    #可继续添加更多内容
 
 #others 其他简略内容(列表)
