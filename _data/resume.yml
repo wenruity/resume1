@@ -114,7 +114,7 @@ main: #简历主要内容，
   name: 项目经历
   content:
   - title: 基于大语言模型的数据分析工具项目
-    duration: 
+    # duration: 
     # tags:
     # - Hive
     # - Spark
