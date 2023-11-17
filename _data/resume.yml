@@ -1,0 +1,175 @@
+# 数据格式可以为 yaml(文件以.yml结尾) 或者json(文件以.json结尾)
+# 如果YAML格式的数据请先检查格式是否有误，可选检查工具 http://www.yamllint.com
+
+title: "杨诗蕙简历"
+lang: "zh" #语言设置 zh表示中文 en 表示英语
+name: "杨诗蕙"
+jobtitle: "数据科学" #可空不显示
+photo: "assets/img/WechatIMG29.jpeg" #照片可空，不显示
+
+#联系方式
+contact: #联系方式连接等3~5行
+- text: "hazel.yang518@gmail.com" #文本内容
+  href: 'mailto:hazel.yang518@gmail.com' #链接，无链接则空  
+  icon: 'icons/email.svg' #图标 svg文件
+- text: "+86 18826101678"
+  icon: 'icons/phone.svg'
+  # - text: "your-website.com"
+  #  href: 'http://your-website.com'
+  #  icon: 'icons/web.svg'
+  # - text: "GitHubID"
+  #  href: 'https://github.com/NewFuture'
+  #  icon: "icons/github.svg"
+  #  attr: 'target="_blank"' #新标签页打开
+  # - text: "地址"
+  #   icon: "icons/location.svg"
+
+#main下面是主体内容，类别条数不限
+main: #简历主要内容，
+- type: education #类别为ID
+  name: 教育 #显示名称，空则使用type
+  content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
+  - title: 中山大学
+    # duration: 
+    sub: 2018年9月 - 2021年7月
+    detail: 经济学类硕士 
+  - title: University of Virginia (弗吉尼亚大学)
+    # duration:
+    sub: 2019年9月 - 2020年7月
+    detail: Master of Science (Global Commerce)
+  - title: 广东外语外贸大学
+    # duration: 
+    sub: 2014年9月 - 2018年6月
+    detail: 经济学学士
+    
+- type: 技能
+  # name: "技术栈和编程语言"
+  content:
+  - title: 技术栈与编程语言
+    items: #itmems 可以小块的方式显示
+    - 编程语言：SQL Python
+    - Hive
+    - Spark
+    - 数据可视化
+  - title: 个人技能总结
+    detail:  1. 有画像业务的完整项目经验，有独立分析和解决数据问题的能力，能针对画像场景进行有效数据挖掘并形成策略 <br>  &nbsp &nbsp
+             2. 掌握多种数据分析模型，了解多种技术选型，并能有效应用于画像服务中。如留存、漏斗、人群分析、RFM模型等 <br>  &nbsp &nbsp
+             3. 了解各类数据建模方法，如线性回归、SHAP value、逻辑回归、决策树以及因果分析的框架和要素 <br>  &nbsp &nbsp
+             4. 具备数据分析、大数据开发的能力，包含hive、spark、python等 <br>  &nbsp &nbsp
+             5. 工作认真负责、勇于担当、沟通和团队协作能力强；能力综合，有独立管理和运营项目的经验 
+
+- type: experience
+  name: 工作经历
+  content:
+  - title: 腾讯 - 数据科学
+    sub: PCG大数据平台部   数据挖掘中心
+    duration: "2021年7月 - 至今"
+    tags:
+    # - 画像挖掘
+    # - 标签开发
+    # - 指标监控
+    # - 画像评测
+    # - 画像提升
+    # - 实验配置
+    # summary: 职务或者工作总结(自动折叠)
+    detail: 业务数据科学：负责新闻业务画像覆盖率、准确率提升，建立画像服务的指标监控体系 <br>  &nbsp &nbsp  平台数据开发：作为开发者完成数据平台的链路搭建和功能上线，为业务提供可靠的画像平台服务
+    
+  # - title: 京东 - 数据产品 (实习)
+  #   sub:  人工智能事业部 
+  #   duration: "2019年6月 - 2019年8月"
+  #   tags:
+  #   # summary: 职务或者工作总结(自动折叠)
+  #   detail: 知识图谱产品经理：负责药学知识图谱面向药师端的产品功能策划及优化迭代，负责撰写需求文档，梳理数据结构，输出产品原型图，推动接入药品处方审核平台
+
+  # - title: 晨星资讯 - 数据分析 (实习)
+  #   sub:  全球基金部门
+  #   duration: "2018年6月 - 2018年8月"
+  #   tags:
+  #   # summary: 职务或者工作总结(自动折叠)
+  #   detail: 金融数据分析师：负责建立全球主要金融市场的基金数据库，构建dashboard以支持数据质量检查（交互式/自动化/可视化），提高预测模型和底层数据的可解释性
+    
+    open: open    
+    #可以设置open默认展开
+  # - title: Job Title
+  #   sub: Your 2nd, Inc.  
+  #   duration: Apr 2013 - Mar 2016
+  #   tags: 
+  #   - tagname
+  #   summary: Summary your job or work. (Collapse)
+  #   detail: Details can be collapsed in Chrome Safari, Firefox, Opera and so on. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+- type: Projects
+  name: 项目经验
+  content:
+  - title: 新闻业务数据科学
+    duration: 
+    tags:
+    - Hive
+    - Spark
+    - 用户调研
+    - ABtest
+    detail: 1.画像挖掘：使用SQL/Python挖掘各类核心标签，如用户应用偏好标签、人群属性标签，用于人群投放场景，标签累计创建人群1000+，产生20+正向场景，覆盖PCG、IEG等BG的多个业务 <br>  &nbsp &nbsp 
+            2.数据应用：建立并维护ID-mapping标签ETL链路，保障数据的完整性、准确性和一致性；负责统一设备ID的推广应用，对接业务方30+，对 uni-ID 的运营取得从0到200亿+/天服务调用量的成绩 <br>  &nbsp &nbsp 
+            3.指标监控：配置新闻业务各场景用户的画像覆盖度监控，覆盖新闻主端app、微信新闻插件、手q新闻插件等产品形态，包括100+标签；利用ClickHouse计算画像覆盖度，降低配置难度，实现高效运算 <br>  &nbsp &nbsp  
+            4.画像评测：在准确率评估项目中，创新性搭建可复用的自动化画像测评流程，实现问卷自动生成与回收结果，产出画像准确率分析报告，耗时从1个月+降低到3日内完成，测评效率大幅度提升  <br>  &nbsp &nbsp 
+            5.画像提升：负责新闻业务兴趣画像置信度指标测算，对置信度低的画像进行原因挖掘，推动画像算法策略调优; 统筹多方资源，实现千人千面画像调研问卷的快速上线，成功在端内向100w+用户发放问卷并回收结果用于提升画像  <br>  &nbsp &nbsp 
+            6.实验配置：产出微信腾讯新闻插件实验人群，配置实验人群包，跟进回收并分析人群实验效果；多个实验中用户人均消费时长等关键指标显著正向，已推全上线
+    sub: 开发者&数据分析
+    
+  - title: 画像平台数据工程
+    duration: 
+    tags:
+    - Hive
+    - Spark
+    - 数据分析
+    - 数据开发
+    detail: 1.数据开发：推动建立全域画像标签库，开发并接入100+标签底层数据到画像平台；重构并维护标签字典表产出链路，推动字典存储从Mysql升级到Elasticsearch，支持百万级字典查询，实现性能提升 <br>  &nbsp &nbsp  
+            2.功能开发：针对分析报告生成时间过长的痛点，构建自动化分析模板，帮助看清页面广告投放效果，提高分析效率，报告生成时间从1人/日降低到半小时内完成，有效解决业务痛点，获得用户好评 <br>  &nbsp &nbsp  
+            3.用户运营：作为owner整体负责画像的运营和数据分析工作，包含业务接入推广、用户反馈处理、badcase分析，对业务画像应用过程中的问题进行原因分析与修复，向业务开展多次画像平台资产与功能介绍课程，累计参与人数200+，用户服务满意度在技术公线内前5% <br>  &nbsp &nbsp  
+            4.知识沉淀：沉淀平台使用指引、画像挖掘说明、ID能力介绍等，累计梳理文档30+篇，访问PV5w+次，UV1w+
+    sub: 功能开发&运营负责人
+
+  # - title: Project Name
+  #   summary: Projects' introduction or summary
+  #   detail:
+  #     md: _data/demo.md
+  #   sub: Creator and maintainer.
+   #可继续添加更多内容
+
+#others 其他简略内容(列表)
+others: #其他列表显示
+- type: others #ID可以为空
+  name: '其他'
+  content: #选择需要的格式
+  - 
+  - title: "奖项"
+    text: "连续获得两次Outstanding员工，腾讯卓越研发奖-腾讯新闻数据科学工业化项目团队成员，腾讯开源协同奖-数据资产管理(河图) Oteam"
+  - title: "认证"
+    text: "BG内数据科学通道培养计划课程认证"
+  #   items: #单行列表
+  #   - 睡觉
+  #   - 吃饭
+  #   - coding
+  # - title: 列表
+  #   list:
+  #   - 第一项
+  #   - 第二项
+#- type: 
+#  name: '其他'
+#  content: #选择需要的格式
+#  - 单行文字
+#  - 如果有可以继续添加
+
+#footer 脚注，打印版和web版不同不显示    
+footer: #脚注多组
+  print: #打印版markdown或者html
+  screen:
+  - text: "简历脚注"
+  #   href: '/'
+  - text: "Made with &hearts; by Hazelyang"
+    href: "https://hazelyang518.github.io/cv/"
+
+#页面额外js脚本，如xx统计
+scripts:
+#- src: "assets/js/resume.js"
+#  defer: defer #可以设置defer或者sync异步加载
