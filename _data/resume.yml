@@ -182,13 +182,13 @@ others: #其他列表显示
 #  - 如果有可以继续添加
 
 #footer 脚注，打印版和web版不同不显示    
-footer: #脚注多组
-  print: #打印版markdown或者html
-  screen:
-  - text: "简历脚注"
-  #   href: '/'
-  - text: "Made with &hearts; by Hazelyang"
-    href: "https://hazelyang518.github.io/cv/"
+# footer: #脚注多组
+#   print: #打印版markdown或者html
+#   screen:
+#   - text: "简历脚注"
+#   #   href: '/'
+#   - text: "Made with &hearts; by Hazelyang"
+#     href: "https://hazelyang518.github.io/cv/"
 
 #页面额外js脚本，如xx统计
 scripts:
