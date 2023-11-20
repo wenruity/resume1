@@ -53,8 +53,9 @@ main: #简历主要内容，
     - 数据挖掘
   - title: 创新研究能力
     #items: 
-    detail: 工作期间提交12项发明专利，5个已授权  <br>  &nbsp &nbsp
-            工作期间发表3篇论文，分别被国际会议 the Web Conference 和 the World Wide Web conference 接收 <br>  &nbsp &nbsp
+    items: 
+    - 工作期间提交12项发明专利，5个已授权  <br>  &nbsp &nbsp
+    - 工作期间发表3篇论文，分别被国际会议 the Web Conference 和 the World Wide Web conference 接收， <br>  &nbsp &nbsp
             Adversary situation awareness via heterogeneous graph convolutional networks. Companion Proceedings of the Web Conference 2020. 2020.<br>  &nbsp &nbsp
             Analyzing and detecting adversarial spam on a large-scale online app review system. Companion Proceedings of the Web Conference 2020. 2020.<br>  &nbsp &nbsp
             Fraudster detection via graph convolutional networks in online app review system. Companion proceedings of the 2019 World Wide Web conference. 2019.
@@ -67,18 +68,18 @@ main: #简历主要内容，
     sub: PCG大数据平台部 数据挖掘中心
     duration: "2018年5月 - 至今"
     tags:
-    - 算法研发
-    - 数据挖掘
-    - 指标建设
-    - 标签开发
+    - 图神经网络
     - 大语言模型微调
-    - 产品运营
+    - 指标建设
+    - 特征挖掘
+    - 画像挖掘
+    - 运营推广
     # summary: 职务或者工作总结(自动折叠)
     detail: 1.【算法研发】研发了数据分析领域的垂类模型，包括基于有限数据构建高质量领域知识语料和基于开源模型的数据分析领域模型fintune，经多轮优化后模型准确率达88%，超过chatGPT3.5，目前模型服务已上线；研发了基于图结构的异常用户识别模型，包括反作弊策略制定和基于GNN的算法模型建模，最终异常识别准确率达90%，已应用于渠道买量、结算、福利发放等场景 <br>  &nbsp &nbsp  
             2.【数据科学】主导通用身份ID服务建设，负责设计和搭建了全面且实时的ID指标体系，使ID的可用性得以量化和监控，目前ID的稳定性和唯一性等关键指标达99.9%，可用性在业界处于领先水平 <br>  &nbsp &nbsp 
-            3.【产品运营】推动并协助PCG全业务和中台服务在数据分析、推荐、画像、商业化、实验等各个场景统一切换各自ID为通用身份ID，业务间拉通分析和数据共享的效率得到明显提升，数据分析质量得到保障 <br>  &nbsp &nbsp 
-            4.【数据挖掘】建设了BG最全的ID-Mapping服务，包括各种账号和ID之间的映射关系查询、自然人识别、换机找回等，为BG业务和外BG业务在数据合作、广告投放等场景创造3亿收入；建设了游戏兴趣相关标签，包括玩家活跃状态识别和游戏IP兴趣标签，辅助业务拉新/拉活游戏用户
-           
+            3.【数据挖掘】建设了BG最全的ID-Mapping服务，包括各种账号和ID之间的映射关系查询、自然人识别、换机找回等，为BG业务和外BG业务在数据合作、广告投放等场景创造3亿收入；建设了游戏兴趣相关标签，包括玩家活跃状态识别和游戏IP兴趣标签，辅助业务拉新/拉活游戏用户
+            4.【产品运营】推动并协助PCG全业务和中台服务在数据分析、推荐、画像、商业化、实验等各个场景统一切换各自ID为通用身份ID，业务间拉通分析和数据共享的效率得到明显提升，数据分析质量得到保障 <br>  &nbsp &nbsp 
+          
     
   # - title: 腾讯 PCG - 基于大语言模型的数据分析工具项目，算法研发
   # #   sub:  人工智能事业部 
@@ -136,7 +137,7 @@ main: #简历主要内容，
     - 特征挖掘
     - 指标建设
     - 运营推广
-    - 画像挖掘
+    - 标签开发
     detail: 在该项目中，本人负责通用身份ID的特征评估、指标体系建设和画像标签挖掘： <br>  &nbsp &nbsp  
             1.【ID特征评估和指标体系建设】基于终端采集的300+特征，筛选能够稳定且唯一标识一台设备的特征，当作生成通用身份ID的关键因子，生成用户ID；搭建一套全面的ID指标体系，实时监控ID在各个业务的可用性，及时发现问题，修复问题。目前通用身份ID大盘日活13亿，基本覆盖腾讯除微信外所有业务 <br>  &nbsp &nbsp  
             2.【ID的推广应用】通过数据分析、AB实验等方式，推动PCG主要业务在数仓建设、数据分析、推荐、画像、实验、商业化等场景切换自有ID为通用身份ID。历时一年时间，PCG所有业务和中台服务均已统一将通用身份ID视为主ID，业务间数据拉通分析和数据合作效率得到明显提升 <br>  &nbsp &nbsp  
