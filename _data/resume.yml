@@ -56,9 +56,11 @@ main: #简历主要内容，
     items: 
     - 工作期间提交12项发明专利，5个已授权
     - 工作期间发表3篇论文，分别被国际会议 the Web Conference 和 the World Wide Web conference 接收
-            # Adversary situation awareness via heterogeneous graph convolutional networks. Companion Proceedings of the Web Conference 2020. 2020.<br>  &nbsp &nbsp
-            # Analyzing and detecting adversarial spam on a large-scale online app review system. Companion Proceedings of the Web Conference 2020. 2020.<br>  &nbsp &nbsp
-            # Fraudster detection via graph convolutional networks in online app review system. Companion proceedings of the 2019 World Wide Web conference. 2019.
+
+    
+      # Adversary situation awareness via heterogeneous graph convolutional networks. Companion Proceedings of the Web Conference 2020. 2020.<br>  &nbsp &nbsp
+      # Analyzing and detecting adversarial spam on a large-scale online app review system. Companion Proceedings of the Web Conference 2020. 2020.<br>  &nbsp &nbsp
+      # Fraudster detection via graph convolutional networks in online app review system. Companion proceedings of the 2019 World Wide Web conference. 2019.
 
 
 - type: experience
