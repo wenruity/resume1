@@ -119,7 +119,7 @@ main: #简历主要内容，
   name: 项目经历
   content:
   - title: 基于大语言模型的数据分析工具项目
-    duration: 
+    duration: 2023年3月 - 至今
     tags:
     - 语料构造
     - 模型微调
@@ -133,7 +133,7 @@ main: #简历主要内容，
     sub: 算法研发
     
   - title: 通用身份ID和画像挖掘项目
-    duration: 
+    duration: 2020年10月 - 至今
     tags:
     - 特征挖掘
     - 指标建设
@@ -148,6 +148,7 @@ main: #简历主要内容，
     
   - title: 稽核反作弊项目
     # summary: Projects' introduction or summary
+    duration: 2018年5月 - 2020年10月
     tags:
     - 数据分析
     - 策略模型
