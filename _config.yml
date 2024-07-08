@@ -3,7 +3,7 @@ title: 简历模板
 querytime: true  #在头像,js和css等后加上时间戳防止缓存,false关闭
 manifest: '' # html5离线缓存配置文件名,默认关闭
 #打印样式设置
-subject-width: 10% #左边栏宽度
+subject-width: 5% #左边栏宽度
 print:
   # 打印样式模板,
   # 空不设置打印样式，模板变量无效
@@ -22,7 +22,7 @@ print:
   section:
     margin: '3px auto 0' #边距
     padding: '3px 0' #内部偏移
-    width: '92%' #内容宽度 basic无效
+    width: '90%' #内容宽度 basic无效
   # content每一条边距设置
   block-margin: 4px 0
   #打印版页脚设置
