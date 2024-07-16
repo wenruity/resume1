@@ -88,7 +88,7 @@ main: #简历主要内容，
 - type: Projects
   name: 项目经历
   content:
-  - title: 基于LLM的智能分析ABI工具和内容理解智能化
+  - title: 基于LLM的智能分析ABI工具研发和内容理解智能化算法建设
     duration: 2023年3月 - 至今
     tags:
     - 语料构造
