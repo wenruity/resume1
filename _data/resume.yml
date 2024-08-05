@@ -39,7 +39,7 @@ main: #简历主要内容，
     detail: 计算机科学与技术 学士
     
 - type: 个人技能
-  # name: "技术栈和编程语言"
+  # name: "技术栈和编程语言" 
   content:
   - title: 开发语言
     items: #itmems 可以小块的方式显示
