@@ -4,7 +4,7 @@
 title: "总结"
 lang: "zh" #语言设置 zh表示中文 en 表示英语
 name: "温蕊"
-jobtitle: "数据科学" #可空不显示
+jobtitle: "数据科学" #可空不显示 
 photo: "" #照片可空，不显示
 
 #联系方式
