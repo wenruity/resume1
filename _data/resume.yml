@@ -61,12 +61,12 @@ main: #简历主要内容，
       # Analyzing and detecting adversarial spam on a large-scale online app review system. Companion Proceedings of the Web Conference 2020. 2020.<br>  &nbsp &nbsp
       # Fraudster detection via graph convolutional networks in online app review system. Companion proceedings of the 2019 World Wide Web conference. 2019.
 
-- type: experience
-  name: 工作经历
-  content:
-  - title: 腾讯 - 应用研究
-    sub: PCG大数据平台部 数据挖掘中心
-    duration: "2018年5月 - 至今"
+# - type: experience
+#   name: 工作经历
+#   content:
+#   - title: 腾讯 - 应用研究
+#     sub: PCG大数据平台部 数据挖掘中心
+#     duration: "2018年5月 - 至今"
     # tags:
     # - 通用身份ID和ID Mapping建设
     # - 指标体系建设
