@@ -88,7 +88,7 @@ main: #简历主要内容，
 - type: Projects
   name: 项目经历
   content:
-  - title: 【平台产品建设】Debug智能诊断和体验优化平台负责人
+  - title: 【平台产品建设】Debug智能诊断和体验优化平台设计和建设
     duration: 2024年10月 - 至今
     tags:
     - 需求调研
