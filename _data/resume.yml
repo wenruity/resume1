@@ -75,7 +75,7 @@ main: #简历主要内容，
     tags:
     - 计算机辅助设计
     - 计算机图形学
-    # summary: 职务或者工作总结(自动折叠)
+    summary: 职务或者工作总结(自动折叠)
     detail: 1.Topology based 2D engineering drawing and 3D model matching for process plant[J]. Graphical Models, 2017. (SCI, 000410805900001)(中国计算机学会推荐的国际学术刊物之计算机图形学与多媒体领域B类期刊). <br>  &nbsp &nbsp
             2.Measuring 3D process plant model similarity based on topological relationship distribution[J]. Computer-Aided Design and Applications, 2017. (EI,20164803053379)<br>  &nbsp &nbsp
             3.A 2D engineering drawing and 3D model matching algorithm for process plant[C]// International Conference on Virtual Reality and Visualization. IEEE Computer Society, 2015. (EI, 20163002624634)<br>  &nbsp &nbsp
