@@ -65,8 +65,10 @@ main: #简历主要内容，
     tags:
     - 基于图神经网络的异常用户识别
     # summary: 职务或者工作总结(自动折叠)
-    detail: 1.【数据科学】负责BG自研通用身份ID服务建设和优化，参与特征选择和ID生成模块，主导设计并搭建ID指标监控体系，目前ID稳定性和唯一性等关键指标达99.9%，业务间互通率达99%，均处于业界领先水平；以数据分析、AB实验等多种方式，推动并协助业务在分析、推荐、画像、商业化等场景切换各自ID为自研通用身份ID。目前ID已几乎覆盖腾讯全端产品，业务间拉通分析和数据共享效率得到明显提升 <br>  &nbsp &nbsp 
-            
+    detail: 1.Adversary situation awareness via heterogeneous graph convolutional networks. Companion Proceedings of the Web Conference 2020. 2020.<br>  &nbsp &nbsp
+            2.Analyzing and detecting adversarial spam on a large-scale online app review system. Companion Proceedings of the Web Conference 2020. 2020.<br>  &nbsp &nbsp
+            3.Fraudster detection via graph convolutional networks in online app review system. Companion proceedings of the 2019 World Wide Web conference. 2019.
+
   - title: 南京理工大学 - 博士
     sub: 计算机科学与工程学院
     duration: "2011年9月 - 2018年1月"
@@ -74,10 +76,17 @@ main: #简历主要内容，
     - 计算机辅助设计
     - 计算机图形学
     # summary: 职务或者工作总结(自动折叠)
-    detail: 1.Adversary situation awareness via heterogeneous graph convolutional networks. Companion Proceedings of the Web Conference 2020. 2020.<br>  &nbsp &nbsp
-            2.Analyzing and detecting adversarial spam on a large-scale online app review system. Companion Proceedings of the Web Conference 2020. 2020.<br>  &nbsp &nbsp
-            3.Fraudster detection via graph convolutional networks in online app review system. Companion proceedings of the 2019 World Wide Web conference. 2019.
+    detail: 1.Topology based 2D engineering drawing and 3D model matching for process plant[J]. Graphical Models, 2017, 92:1-15. (SCI, 000410805900001)(中国计算机学会推荐的国际学术刊物之计算机图形学与多媒体领域B类期刊). <br>  &nbsp &nbsp
+            2.Measuring 3D process plant model similarity based on topological relationship distribution[J]. Computer-Aided Design and Applications, 2017, 14(04):422–435. (EI,20164803053379)<br>  &nbsp &nbsp
+            3.A 2D engineering drawing and 3D model matching algorithm for process plant[C]// International Conference on Virtual Reality and Visualization. IEEE Computer Society, 2015:154-159. (EI, 20163002624634)<br>  &nbsp &nbsp
+            4.基于编辑距离的大规模流程工厂模型局部检索算法[J]. 计算机集成制造系统, 2015, 21(12):3349-3355. (EI, 20160501885507) <br>  &nbsp &nbsp
+            5.流程工厂设计中的规则挖掘与智能预测[J]. 计算机辅助设计与图形学学报, 2015, 27(5): 930-939. (EI, 20152400927972)
 
+攻读博士学位期间参加的科学研究情况：
+1.	参与国家自然科学基金青年基金项目《面向局部无比例形变工程CAD图内容完整性认证的数字水印技术研究》(61300160)。
+
+
+    
 - type: experience
   name: 工作经历
   content:
