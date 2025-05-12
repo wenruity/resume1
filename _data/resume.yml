@@ -75,12 +75,9 @@ main: #简历主要内容，
     - 计算机辅助设计
     - 计算机图形学
     # summary: 职务或者工作总结(自动折叠)
-    detail: 1.【数据科学】负责BG自研通用身份ID服务建设和优化，参与特征选择和ID生成模块，主导设计并搭建ID指标监控体系，目前ID稳定性和唯一性等关键指标达99.9%，业务间互通率达99%，均处于业界领先水平；以数据分析、AB实验等多种方式，推动并协助业务在分析、推荐、画像、商业化等场景切换各自ID为自研通用身份ID。目前ID已几乎覆盖腾讯全端产品，业务间拉通分析和数据共享效率得到明显提升 <br>  &nbsp &nbsp 
-            
-    
-      # Adversary situation awareness via heterogeneous graph convolutional networks. Companion Proceedings of the Web Conference 2020. 2020.<br>  &nbsp &nbsp
-      # Analyzing and detecting adversarial spam on a large-scale online app review system. Companion Proceedings of the Web Conference 2020. 2020.<br>  &nbsp &nbsp
-      # Fraudster detection via graph convolutional networks in online app review system. Companion proceedings of the 2019 World Wide Web conference. 2019.
+    detail: 1.Adversary situation awareness via heterogeneous graph convolutional networks. Companion Proceedings of the Web Conference 2020. 2020.<br>  &nbsp &nbsp
+            2.Analyzing and detecting adversarial spam on a large-scale online app review system. Companion Proceedings of the Web Conference 2020. 2020.<br>  &nbsp &nbsp
+            3.Fraudster detection via graph convolutional networks in online app review system. Companion proceedings of the 2019 World Wide Web conference. 2019.
 
 - type: experience
   name: 工作经历
