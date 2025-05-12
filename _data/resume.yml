@@ -76,11 +76,11 @@ main: #简历主要内容，
     - 计算机辅助设计
     - 计算机图形学
     # summary: 职务或者工作总结(自动折叠)
-    detail: 1.Topology based 2D engineering drawing and 3D model matching for process plant[J]. Graphical Models, 2017, 92:1-15. (SCI, 000410805900001)(中国计算机学会推荐的国际学术刊物之计算机图形学与多媒体领域B类期刊). <br>  &nbsp &nbsp
-            2.Measuring 3D process plant model similarity based on topological relationship distribution[J]. Computer-Aided Design and Applications, 2017, 14(04):422–435. (EI,20164803053379)<br>  &nbsp &nbsp
-            3.A 2D engineering drawing and 3D model matching algorithm for process plant[C]// International Conference on Virtual Reality and Visualization. IEEE Computer Society, 2015:154-159. (EI, 20163002624634)<br>  &nbsp &nbsp
-            4.基于编辑距离的大规模流程工厂模型局部检索算法[J]. 计算机集成制造系统, 2015, 21(12):3349-3355. (EI, 20160501885507) <br>  &nbsp &nbsp
-            5.流程工厂设计中的规则挖掘与智能预测[J]. 计算机辅助设计与图形学学报, 2015, 27(5): 930-939. (EI, 20152400927972)
+    detail: 1.Topology based 2D engineering drawing and 3D model matching for process plant[J]. Graphical Models, 2017. (SCI, 000410805900001)(中国计算机学会推荐的国际学术刊物之计算机图形学与多媒体领域B类期刊). <br>  &nbsp &nbsp
+            2.Measuring 3D process plant model similarity based on topological relationship distribution[J]. Computer-Aided Design and Applications, 2017. (EI,20164803053379)<br>  &nbsp &nbsp
+            3.A 2D engineering drawing and 3D model matching algorithm for process plant[C]// International Conference on Virtual Reality and Visualization. IEEE Computer Society, 2015. (EI, 20163002624634)<br>  &nbsp &nbsp
+            4.基于编辑距离的大规模流程工厂模型局部检索算法[J]. 计算机集成制造系统, 2015. (EI, 20160501885507) <br>  &nbsp &nbsp
+            5.流程工厂设计中的规则挖掘与智能预测[J]. 计算机辅助设计与图形学学报, 2015. (EI, 20152400927972)
 
 攻读博士学位期间参加的科学研究情况：
 1.	参与国家自然科学基金青年基金项目《面向局部无比例形变工程CAD图内容完整性认证的数字水印技术研究》(61300160)。
