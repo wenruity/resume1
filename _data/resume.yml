@@ -31,7 +31,7 @@ main: #简历主要内容，
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
   - title: 南京理工大学
     # duration: 
-    sub: 2011年9月 - 2017年12月
+    sub: 2011年9月 - 2018年1月
     detail: 计算机应用技术 博士/硕士
   - title: 南京理工大学
     # duration: 
@@ -66,6 +66,7 @@ main: #简历主要内容，
     - 基于图神经网络的异常用户识别
     # summary: 职务或者工作总结(自动折叠)
     detail: 1.【数据科学】负责BG自研通用身份ID服务建设和优化，参与特征选择和ID生成模块，主导设计并搭建ID指标监控体系，目前ID稳定性和唯一性等关键指标达99.9%，业务间互通率达99%，均处于业界领先水平；以数据分析、AB实验等多种方式，推动并协助业务在分析、推荐、画像、商业化等场景切换各自ID为自研通用身份ID。目前ID已几乎覆盖腾讯全端产品，业务间拉通分析和数据共享效率得到明显提升 <br>  &nbsp &nbsp 
+    学术
             
   - title: 南京理工大学 - 博士
     sub: 计算机科学与工程学院
@@ -100,7 +101,9 @@ main: #简历主要内容，
             3.【算法研发】负责基于LLM的内容理解和用户理解项目，包括内容标签体系建设、用户画像挖掘等，所挖掘标签在金融风控、广告推荐等得到深度应用；研发数据分析领域的垂类模型，包括基于有限数据构建高质量领域知识语料和模型微调，经多轮优化后模型准确率达88% <br>  &nbsp &nbsp  
             4.【商业化】负责中心商业化项目，统筹拉通各团队数据算法能力，与BG外业务建立商业化合作，2024年起始至今，通过法务合规、特征重要度评估、新旧特征挖掘优化等方式，与外BG确定商业化合同金额超1kw <br>  &nbsp &nbsp  
             5.【平台产品建设】负责Debug平台产品规划和建设，收集多方业务痛点，梳理沉淀解决方案，主导建设了推荐、push等场景链路排查、用户洞察、内容洞察、满意度洞察和效果评测等模块，视频、新闻、浏览器、社交等业务的产品、运营、算法、后台同学在问题排查、体验优化等场景深度使用  <br>  &nbsp &nbsp  
-      
+    detai: 1.Adversary situation awareness via heterogeneous graph convolutional networks. Companion Proceedings of the Web Conference 2020. 2020.<br>  &nbsp &nbsp
+           2.Analyzing and detecting adversarial spam on a large-scale online app review system. Companion Proceedings of the Web Conference 2020. 2020.<br>  &nbsp &nbsp
+           3.Fraudster detection via graph convolutional networks in online app review system. Companion proceedings of the 2019 World Wide Web conference. 2019.
 
     open: open    
     #可以设置open默认展开
