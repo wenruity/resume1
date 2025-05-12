@@ -63,7 +63,10 @@ main: #简历主要内容，
     sub: PCG大数据平台部 数据挖掘中心
     duration: "2018年5月 - 2020年6月"
     tags:
-    - 基于图神经网络的异常用户识别
+    - 图神经网络
+    - 异常用户识别
+    - 特征工程
+    - 复杂异构图网络
     # summary: 职务或者工作总结(自动折叠)
     detail: 1.Adversary situation awareness via heterogeneous graph convolutional networks. Companion Proceedings of the Web Conference 2020. 2020.<br>  &nbsp &nbsp
             2.Analyzing and detecting adversarial spam on a large-scale online app review system. Companion Proceedings of the Web Conference 2020. 2020.<br>  &nbsp &nbsp
@@ -73,9 +76,13 @@ main: #简历主要内容，
     sub: 计算机科学与工程学院
     duration: "2011年9月 - 2018年1月"
     tags:
-    - 计算机辅助设计
-    - 计算机图形学
-    summary: 职务或者工作总结(自动折叠)
+    - 异构CAD模型
+    - 特征工程
+    - 相似性度量
+    - 智能设计
+    - 规则挖掘
+    - 设计预测
+    # summary: 职务或者工作总结(自动折叠)
     detail: 1.Topology based 2D engineering drawing and 3D model matching for process plant[J]. Graphical Models, 2017. (SCI, 000410805900001)(中国计算机学会推荐的国际学术刊物之计算机图形学与多媒体领域B类期刊). <br>  &nbsp &nbsp
             2.Measuring 3D process plant model similarity based on topological relationship distribution[J]. Computer-Aided Design and Applications, 2017. (EI,20164803053379)<br>  &nbsp &nbsp
             3.A 2D engineering drawing and 3D model matching algorithm for process plant[C]// International Conference on Virtual Reality and Visualization. IEEE Computer Society, 2015. (EI, 20163002624634)<br>  &nbsp &nbsp
